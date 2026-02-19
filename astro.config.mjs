@@ -14,11 +14,7 @@ export default defineConfig({
       sidebar: [
         {
           label: '블로그',
-          items: [
-            { label: '환영합니다', link: '/' },
-            { label: '첫 번째 글', link: '/blog/first-post/' },
-            { label: '두 번째 글', link: '/blog/second-post/' }
-          ]
+          autogenerate: { directory: '.' }
         }
       ]
     })
