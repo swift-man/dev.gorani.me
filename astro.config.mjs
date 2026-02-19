@@ -20,10 +20,24 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: '블로그',
+          label: 'Python',
           items: [
-            { label: '홈', link: '/' },
-            { label: '첫 번째 글', slug: 'first-post' },
+            { label: '카테고리 소개', slug: 'python' },
+            { label: '첫 번째 글', slug: 'first-post' }
+          ]
+        },
+        {
+          label: 'MongoDB',
+          items: [{ label: '카테고리 소개', slug: 'mongodb' }]
+        },
+        {
+          label: 'Nginx',
+          items: [{ label: '카테고리 소개', slug: 'nginx' }]
+        },
+        {
+          label: 'React Native',
+          items: [
+            { label: '카테고리 소개', slug: 'react-native' },
             { label: '두 번째 글', slug: 'second-post' }
           ]
         }
