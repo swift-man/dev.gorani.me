@@ -22,24 +22,49 @@ const giscusReady = Boolean(repo && repoId && categoryId);
 
 {
   !isHomepage && giscusReady && (
-    <section class="giscus-wrap" aria-label="Comments">
-      <script
-        is:inline
-        src="https://giscus.app/client.js"
-        data-repo={repo}
-        data-repo-id={repoId}
-        data-category={category}
-        data-category-id={categoryId}
-        data-mapping={mapping}
-        data-strict="0"
-        data-reactions-enabled={reactionsEnabled}
-        data-emit-metadata={emitMetadata}
-        data-input-position={inputPosition}
-        data-theme={theme}
-        data-lang={lang}
-        crossorigin="anonymous"
-        async
-      ></script>
+    <section
+      class="giscus-wrap"
+      aria-label="Comments"
+      data-repo={repo}
+      data-repo-id={repoId}
+      data-category={category}
+      data-category-id={categoryId}
+      data-mapping={mapping}
+      data-reactions-enabled={reactionsEnabled}
+      data-emit-metadata={emitMetadata}
+      data-input-position={inputPosition}
+      data-theme={theme}
+      data-lang={lang}
+    >
+      <div id="giscus-thread"></div>
+      <script is:inline>
+        (() => {
+          const mount = () => {
+            const wrap = document.querySelector('.giscus-wrap');
+            const container = document.querySelector('#giscus-thread');
+            if (!wrap || !container) return;
+            container.innerHTML = '';
+            const s = document.createElement('script');
+            s.src = 'https://giscus.app/client.js';
+            s.setAttribute('data-repo', wrap.dataset.repo || '');
+            s.setAttribute('data-repo-id', wrap.dataset.repoId || '');
+            s.setAttribute('data-category', wrap.dataset.category || 'General');
+            s.setAttribute('data-category-id', wrap.dataset.categoryId || '');
+            s.setAttribute('data-mapping', wrap.dataset.mapping || 'pathname');
+            s.setAttribute('data-strict', '0');
+            s.setAttribute('data-reactions-enabled', wrap.dataset.reactionsEnabled || '1');
+            s.setAttribute('data-emit-metadata', wrap.dataset.emitMetadata || '0');
+            s.setAttribute('data-input-position', wrap.dataset.inputPosition || 'bottom');
+            s.setAttribute('data-theme', wrap.dataset.theme || 'preferred_color_scheme');
+            s.setAttribute('data-lang', wrap.dataset.lang || 'ko');
+            s.setAttribute('crossorigin', 'anonymous');
+            s.async = true;
+            container.appendChild(s);
+          };
+          document.addEventListener('astro:page-load', mount);
+          mount();
+        })();
+      </script>
     </section>
   )
 }
