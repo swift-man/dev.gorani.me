@@ -14,7 +14,7 @@ export default defineConfig({
         {
           label: '블로그',
           items: [
-            { label: '환영합니다', slug: 'index' },
+            { label: '환영합니다', link: '/' },
             { label: '첫 번째 글', slug: 'blog/first-post' },
             { label: '두 번째 글', slug: 'blog/second-post' }
           ]
