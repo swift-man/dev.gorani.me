@@ -1,6 +1,10 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+const plausibleDomain = process.env.PUBLIC_PLAUSIBLE_DOMAIN ?? 'dev.gorani.me';
+const plausibleScriptSrc =
+  process.env.PUBLIC_PLAUSIBLE_SCRIPT_SRC ?? 'https://plausible.io/js/script.js';
+
 export default defineConfig({
   site: 'https://dev.gorani.me',
   redirects: {
@@ -23,7 +27,20 @@ export default defineConfig({
             { label: '두 번째 글', slug: 'second-post' }
           ]
         }
-      ]
+      ],
+      head: [
+        {
+          tag: 'script',
+          attrs: {
+            defer: true,
+            'data-domain': plausibleDomain,
+            src: plausibleScriptSrc
+          }
+        }
+      ],
+      components: {
+        Footer: './src/components/CommentsFooter.astro'
+      }
     })
   ]
 });
