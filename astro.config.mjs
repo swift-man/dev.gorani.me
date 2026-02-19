@@ -17,7 +17,11 @@ export default defineConfig({
       sidebar: [
         {
           label: '블로그',
-          autogenerate: { directory: '.' }
+          items: [
+            { label: '홈', link: '/' },
+            { label: '첫 번째 글', slug: 'first-post' },
+            { label: '두 번째 글', slug: 'second-post' }
+          ]
         }
       ]
     })
