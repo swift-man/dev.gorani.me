@@ -3,6 +3,10 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
   site: 'https://dev.gorani.me',
+  redirects: {
+    '/blog/first-post/': '/first-post/',
+    '/blog/second-post/': '/second-post/'
+  },
   integrations: [
     starlight({
       title: 'Gorani Dev Blog',
