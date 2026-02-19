@@ -19,7 +19,7 @@ npm run preview
 ## 콘텐츠 작성
 
 - 홈: `src/content/docs/index.md`
-- 글: `src/content/docs/blog/*.md`
+- 글: `src/content/docs/*.md`
 
 ## GitHub Pages 배포
 
