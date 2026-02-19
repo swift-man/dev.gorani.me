@@ -7,13 +7,9 @@ export default defineConfig({
     starlight({
       title: 'Gorani Dev Blog',
       description: 'Astro + Starlight로 운영하는 정적 블로그',
-      social: [
-        {
-          icon: 'github',
-          label: 'GitHub',
-          href: 'https://github.com/YOUR_GITHUB_ID/dev.gorani.me'
-        }
-      ],
+      social: {
+        github: 'https://github.com/swift-man/dev.gorani.me'
+      },
       sidebar: [
         {
           label: '블로그',
