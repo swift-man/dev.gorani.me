@@ -40,3 +40,4 @@ npm run preview
 4. GitHub Actions 사용 시 저장소 `Settings > Secrets and variables > Actions > Variables`에 `PUBLIC_*` 값 추가
 
 `PUBLIC_GISCUS_REPO_ID`와 `PUBLIC_GISCUS_CATEGORY_ID`가 비어 있으면 댓글 위젯은 자동으로 비활성화됩니다.
+최소 필수값: `PUBLIC_GISCUS_REPO`, `PUBLIC_GISCUS_REPO_ID`, `PUBLIC_GISCUS_CATEGORY_ID`.

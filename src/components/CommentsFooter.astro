@@ -18,9 +18,7 @@ const lang = import.meta.env.PUBLIC_GISCUS_LANG ?? 'ko';
 const giscusReady = Boolean(repo && repoId && categoryId);
 ---
 
-<DefaultFooter {...Astro.props}>
-  <slot />
-</DefaultFooter>
+<DefaultFooter {...Astro.props} />
 
 {
   !isHomepage && giscusReady && (
