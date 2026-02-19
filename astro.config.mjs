@@ -2,7 +2,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://dev.gorani.me',
+  site: 'https://swift-man.github.io',
+  base: '/dev.gorani.me',
   integrations: [
     starlight({
       title: 'Gorani Dev Blog',
