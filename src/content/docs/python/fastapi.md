@@ -2,10 +2,9 @@
 title: Python FastAPI 가 뭐야?
 description: FastAPI는 Python으로 만드는 초고속 웹 API 프레임워크입니다.
 ---
-![AI Generated](https://img.shields.io/badge/AI-Generated-8A2BE2)
-![ChatGPT 5.2](https://img.shields.io/badge/ChatGPT-5.2-00A67E?logo=openai&logoColor=white)
+![AI Generated](https://img.shields.io/badge/AI-Generated-8A2BE2) ![ChatGPT 5.2](https://img.shields.io/badge/ChatGPT-5.2-00A67E?logo=openai&logoColor=white)
 
-# FastAPI는 Python으로 만드는 초고속 웹 API 프레임워크입니다.
+## FastAPI는 Python으로 만드는 초고속 웹 API 프레임워크입니다.
 
 Flask보다 최신이고
 Django보다 가볍고
@@ -14,9 +13,9 @@ Django보다 가볍고
 
 당신이 지금 하는 것들(봇 서버, AI API, 자동매매 서버 같은 것)에 딱 맞는 스택입니다.
 
-# 🚀 왜 요즘 다 FastAPI 쓰냐
+## 🚀 왜 요즘 다 FastAPI 쓰냐
 
-## 1️⃣ 압도적으로 빠름
+### 1️⃣ 압도적으로 빠름
 
 Node.js 수준의 처리 속도
 
@@ -26,7 +25,7 @@ Node.js 수준의 처리 속도
 
 👉 AI API / 실시간 서비스에 최적
 
-## 2️⃣ 코드가 미친 듯이 짧음
+### 2️⃣ 코드가 미친 듯이 짧음
 
 예시
 ```ts title="python"
@@ -45,7 +44,7 @@ def read_root():
 uvicorn main:app --reload
 ```
 
-## 3️⃣ 자동으로 문서 생성됨 🤯
+### 3️⃣ 자동으로 문서 생성됨 🤯
 
 서버 켜면:
   •  /docs → Swagger UI
@@ -53,7 +52,7 @@ uvicorn main:app --reload
 
 프론트 / iOS 개발자 입장에서 개꿀
 
-## 4️⃣ 타입 기반이라 안정성 높음
+### 4️⃣ 타입 기반이라 안정성 높음
 ```ts title="python"
 @app.get("/items/{item_id}")
 def read_item(item_id: int):
@@ -64,7 +63,7 @@ def read_item(item_id: int):
 
 Swift 개발자인 당신에게 특히 잘 맞음 😆
 
-# 🧠 어디에 쓰냐 (실전 예시)
+## 🧠 어디에 쓰냐 (실전 예시)
 당신 프로젝트 기준:
 
 ✅ LLM API 서버
@@ -82,7 +81,7 @@ Gemini / OpenAI / Grok 중계 서버
 
 ✅ 앱 백엔드
 
-# 🆚 Flask vs FastAPI
+## 🆚 Flask vs FastAPI
 | 항목 | Flask | FastAPI |
 | :--- | :--- | :--- |
 | **속도** | 보통 | 매우 빠름 |
@@ -95,7 +94,7 @@ FastAPI는 최신 파이썬의 async/await와 타입 힌트를 적극 활용하�
 
 Flask는 역사가 깊고 생태계가 넓어 단순한 웹 서비스 구현에는 여전히 유효하지만, 이미지에서 강조하듯 AI 모델 서빙이나 고성능 API 구축에는 FastAPI가 훨씬 더 선호되는 추세입니다.
 
-# 📦 실제 구조 예시
+## 📦 실제 구조 예시
 ```ts title="코드"
 app/
  ├─ routers/
@@ -106,5 +105,5 @@ app/
 ```
 클린 아키텍처 그대로 가능 😆
 
-# ⭐ 한 줄 정리
+## ⭐ 한 줄 정리
 FastAPI = Python으로 만드는 “고성능 API 서버 프레임워크”

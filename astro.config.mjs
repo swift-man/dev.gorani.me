@@ -49,11 +49,6 @@ export default defineConfig({
           label: 'Astro',
           collapsed: false,
           autogenerate: { directory: 'astro' }
-        },
-        {
-          label: 'Misc',
-          collapsed: false,
-          autogenerate: { directory: 'misc' }
         }
       ],
       head: [
