@@ -72,3 +72,8 @@ npm run dev
 
 `package-lock.json`은 커밋하는 게 맞습니다.  
 원하면 다음으로 CI도 `npm install`에서 `npm ci`로 다시 바꿔서 더 안정적으로 맞춰드릴게요.
+
+## 캐시 삭제 명령어
+```ts title="bash"
+rm -rf .astro
+```
