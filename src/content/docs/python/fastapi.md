@@ -20,8 +20,8 @@ Django보다 가볍고
 Node.js 수준의 처리 속도
 
 비결:
-  •  비동기 기반 (async/await)
-  •  Starlette + Uvicorn
+* 비동기 기반 (async/await)
+* Starlette + Uvicorn
 
 👉 AI API / 실시간 서비스에 최적
 
@@ -47,8 +47,8 @@ uvicorn main:app --reload
 ### 3️⃣ 자동으로 문서 생성됨 🤯
 
 서버 켜면:
-  •  /docs → Swagger UI
-  •  /redoc → API 문서
+* /docs → Swagger UI
+* /redoc → API 문서
 
 프론트 / iOS 개발자 입장에서 개꿀
 
@@ -59,6 +59,7 @@ def read_item(item_id: int):
     return {"item_id": item_id}
 ```
 👉 타입 자동 검증
+
 👉 잘못된 값 들어오면 자동 에러 처리
 
 Swift 개발자인 당신에게 특히 잘 맞음 😆
@@ -75,9 +76,9 @@ Gemini / OpenAI / Grok 중계 서버
 현재 Iris 서버 구조에 딱 맞음
 
 ✅ 주식 자동매매 엔진
-  •  신호 생성 API
-  •  Redis 연결
-  •  실시간 데이터 처리
+* 신호 생성 API
+* Redis 연결
+* 실시간 데이터 처리
 
 ✅ 앱 백엔드
 
