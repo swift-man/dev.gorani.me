@@ -21,9 +21,39 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: '문서',
+          label: 'Python',
           collapsed: false,
-          autogenerate: { directory: '' }
+          autogenerate: { directory: 'python' }
+        },
+        {
+          label: 'MongoDB',
+          collapsed: false,
+          autogenerate: { directory: 'mongodb' }
+        },
+        {
+          label: 'Nginx',
+          collapsed: false,
+          autogenerate: { directory: 'nginx' }
+        },
+        {
+          label: 'React Native',
+          collapsed: false,
+          autogenerate: { directory: 'react-native' }
+        },
+        {
+          label: 'Redis',
+          collapsed: false,
+          autogenerate: { directory: 'redis' }
+        },
+        {
+          label: 'Astro',
+          collapsed: false,
+          autogenerate: { directory: 'astro' }
+        },
+        {
+          label: 'Misc',
+          collapsed: false,
+          autogenerate: { directory: 'misc' }
         }
       ],
       head: [
