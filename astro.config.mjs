@@ -23,6 +23,7 @@ export default defineConfig({
           label: 'Python',
           items: [
             { label: '카테고리 소개', slug: 'python' },
+            { label: '코드 블록 스타일', slug: 'code-blocks' },
             { label: '첫 번째 글', slug: 'first-post' }
           ]
         },
@@ -52,6 +53,7 @@ export default defineConfig({
           }
         }
       ],
+      customCss: ['./src/styles/code-theme.css'],
       components: {
         Footer: './src/components/CommentsFooter.astro'
       }

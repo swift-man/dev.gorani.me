@@ -1,0 +1,42 @@
+/* Code block frame */
+.expressive-code {
+  --ec-brdRad: 12px;
+}
+
+.expressive-code .frame {
+  border: 1px solid var(--sl-color-hairline-light);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Filename tab */
+.expressive-code .header {
+  border-bottom: 1px solid var(--sl-color-hairline-light);
+  background: color-mix(in oklab, var(--sl-color-bg) 86%, var(--sl-color-accent) 14%);
+}
+
+.expressive-code .title {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* Highlight line */
+.expressive-code .line.mark {
+  background: color-mix(in oklab, var(--sl-color-accent) 14%, transparent);
+  border-left: 3px solid var(--sl-color-accent-high);
+  padding-left: calc(var(--ec-linePadInl) - 3px);
+}
+
+/* Diff lines */
+.expressive-code .line.diff.add {
+  background: color-mix(in oklab, #19a15f 20%, transparent);
+}
+
+.expressive-code .line.diff.remove {
+  background: color-mix(in oklab, #d14d4d 20%, transparent);
+}
+
+/* Better readability */
+.expressive-code code {
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
