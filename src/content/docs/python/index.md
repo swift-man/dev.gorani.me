@@ -1,7 +1,6 @@
 ---
 title: Python
 description: Python 카테고리 소개
-slug: python
 ---
 
 # Python

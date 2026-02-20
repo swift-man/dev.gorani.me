@@ -19,7 +19,8 @@ npm run preview
 ## 콘텐츠 작성
 
 - 홈: `src/content/docs/index.md`
-- 글: `src/content/docs/*.md`
+- 글: `src/content/docs/**/*.md`
+- 카테고리 폴더 예시: `src/content/docs/python/`, `src/content/docs/mongodb/`
 
 ## GitHub Pages 배포
 

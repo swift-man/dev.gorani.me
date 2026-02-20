@@ -1,7 +1,6 @@
 ---
 title: 환영합니다
 description: dev.gorani.me 블로그 시작 페이지
-slug: index
 ---
 
 # 안녕하세요.

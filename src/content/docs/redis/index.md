@@ -1,7 +1,6 @@
 ---
 title: Redis
 description: Redis 카테고리 소개
-slug: redis
 ---
 
 # Redis

@@ -1,7 +1,6 @@
 ---
 title: MongoDB
 description: MongoDB 카테고리 소개
-slug: mongodb
 ---
 
 # MongoDB
