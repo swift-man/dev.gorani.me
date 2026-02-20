@@ -9,14 +9,14 @@ description: 파일명, 라인 강조, diff 스타일 사용법
 
 ## 파일명 + 라인 강조
 
-```md
+````md
 ```ts title="src/server.ts" {2,5}
 import express from 'express';
 const app = express();
 app.get('/health', (_req, res) => res.send('ok'));
 app.listen(3000);
 ```
-```
+````
 
 ```ts title="src/server.ts" {2,5}
 import express from 'express';
@@ -27,12 +27,12 @@ app.listen(3000);
 
 ## Diff 스타일
 
-```md
+````md
 ```diff title="deploy.diff"
 - npm ci
 + npm install --no-audit --no-fund
 ```
-```
+````
 
 ```diff title="deploy.diff"
 - npm ci
