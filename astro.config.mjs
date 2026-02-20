@@ -21,7 +21,7 @@ export default defineConfig({
       sidebar: [
         {
           label: '문서',
-          autogenerate: { directory: '.' }
+          autogenerate: { directory: '' }
         }
       ],
       head: [

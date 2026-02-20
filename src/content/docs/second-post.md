@@ -1,6 +1,7 @@
 ---
 title: 두 번째 글
 description: Starlight를 고른 이유
+slug: astro
 ---
 
 # 왜 Starlight인가

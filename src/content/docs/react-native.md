@@ -1,6 +1,7 @@
 ---
 title: React Native
 description: React Native 카테고리 소개
+slug: react-native
 ---
 
 # React Native

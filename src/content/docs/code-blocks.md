@@ -1,6 +1,7 @@
 ---
 title: 코드 블록 스타일 가이드
 description: 파일명, 라인 강조, diff 스타일 사용법
+slug: astro
 ---
 
 # 코드 블록 스타일

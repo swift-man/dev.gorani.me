@@ -1,6 +1,7 @@
 ---
 title: Nginx
 description: Nginx 카테고리 소개
+slug: nginx
 ---
 
 # Nginx
