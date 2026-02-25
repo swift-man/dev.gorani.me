@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI 가 뭐야?
+title: Python FastAPI
 description: FastAPI는 Python으로 만드는 초고속 웹 API 프레임워크입니다.
 ---
 ![ChatGPT 5.2](https://img.shields.io/badge/ChatGPT-5.2-00A67E?logo=openaigym&logoColor=white)
