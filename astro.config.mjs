@@ -46,6 +46,11 @@ export default defineConfig({
           autogenerate: { directory: 'redis' }
         },
         {
+          label: 'PostgreSQL',
+          collapsed: false,
+          autogenerate: { directory: 'postgresql' }
+        },
+        {
           label: 'Astro',
           collapsed: false,
           autogenerate: { directory: 'astro' }
