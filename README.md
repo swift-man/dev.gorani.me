@@ -29,6 +29,24 @@ npm run preview
 3. `main` 브랜치 푸시 시 `.github/workflows/deploy.yml`로 자동 배포
 4. 커스텀 도메인: `https://dev.gorani.me/`
 
+## 글쓰기 기능 (GitHub 로그인 + Markdown)
+
+1. `/write` 페이지 접속
+2. GitHub 로그인
+3. 현재 카테고리에 Markdown 문서 작성 후 저장
+
+카테고리 문서 페이지에서는 `이 카테고리에 글쓰기` 링크가 자동 표시됩니다.
+
+### 프론트 환경변수
+
+- `PUBLIC_WRITE_API_BASE` (Workers API 주소)
+
+예: `https://dev-gorani-write-api.workers.dev`
+
+### 백엔드 (Cloudflare Worker)
+
+- 설정/배포 가이드: `/Users/kim_seung_jin/개발/dev.gorani.me/workers/write-api/README.md`
+
 ## 댓글/분석 설정
 
 1. `.env.example`을 참고해 `.env`를 생성

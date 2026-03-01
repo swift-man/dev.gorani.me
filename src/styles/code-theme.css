@@ -40,3 +40,19 @@
   font-size: 0.92rem;
   line-height: 1.55;
 }
+
+/* Write link on doc pages */
+.write-in-category-link {
+  display: inline-block;
+  margin: 0.5rem 0 1.2rem;
+  font-size: 0.86rem;
+  color: var(--sl-color-accent-high);
+  border: 1px solid var(--sl-color-hairline-light);
+  border-radius: 8px;
+  padding: 0.35rem 0.65rem;
+  text-decoration: none;
+}
+
+.write-in-category-link:hover {
+  border-color: var(--sl-color-accent);
+}

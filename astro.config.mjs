@@ -21,6 +21,10 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: '글쓰기',
+          link: '/write'
+        },
+        {
           label: 'Python',
           collapsed: false,
           autogenerate: { directory: 'python' }
@@ -63,6 +67,20 @@ export default defineConfig({
             defer: true,
             'data-domain': plausibleDomain,
             src: plausibleScriptSrc
+          }
+        },
+        {
+          tag: 'script',
+          attrs: {
+            defer: true,
+            src: '/category-write-link.js'
+          }
+        },
+        {
+          tag: 'script',
+          attrs: {
+            defer: true,
+            src: '/code-copy.js'
           }
         }
       ],

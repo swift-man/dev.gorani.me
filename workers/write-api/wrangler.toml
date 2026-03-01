@@ -1,0 +1,9 @@
+name = "dev-gorani-write-api"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://dev.gorani.me"
+GITHUB_OWNER = "swift-man"
+GITHUB_REPO = "dev.gorani.me"
+DEFAULT_BRANCH = "main"
