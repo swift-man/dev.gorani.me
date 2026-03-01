@@ -129,7 +129,7 @@ font-variation-settings:
 ❌ RN에서 거의 안 씀  
 ❌ 아이콘 수 CommunityIcons보다 적음
 
-### 🧩 2️⃣ MaterialCommunityIcons (실무에서 많이 씀)
+## 🧩 2️⃣ MaterialCommunityIcons (실무에서 많이 씀)
 
 👉 Pictogrammers 프로젝트  
 👉 원래 Material Icons 확장판
