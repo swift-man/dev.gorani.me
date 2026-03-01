@@ -31,9 +31,9 @@ export default defineConfig({
           autogenerate: { directory: 'mongodb' }
         },
         {
-          label: 'Nginx',
+          label: 'Infra',
           collapsed: false,
-          autogenerate: { directory: 'nginx' }
+          autogenerate: { directory: 'infra' }
         },
         {
           label: 'React Native',
