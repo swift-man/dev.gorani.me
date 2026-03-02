@@ -58,6 +58,14 @@ export default defineConfig({
       ],
       head: [
         {
+          tag: 'link',
+          attrs: {
+            rel: 'icon',
+            type: 'image/png',
+            href: '/favicon.png'
+          }
+        },
+        {
           tag: 'script',
           attrs: {
             defer: true,
