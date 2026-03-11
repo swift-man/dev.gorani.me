@@ -1,6 +1,6 @@
 ---
-title: Windows 서버에서 Git 설치
-description: Windows 서버에서 이렇게 확인하면 됩니다.
+title: Windows 에서 Git 설치
+description: Windows 에서 이렇게 확인하면 됩니다.
 ---
 ![GPT 5.3-Codex](https://img.shields.io/badge/GPTCodex-5.3-00A67E?logo=openaigym&logoColor=white)
 ### 1. 설치 여부 확인
