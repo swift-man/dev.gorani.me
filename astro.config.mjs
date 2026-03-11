@@ -72,6 +72,13 @@ export default defineConfig({
             'data-domain': plausibleDomain,
             src: plausibleScriptSrc
           }
+        },
+        {
+          tag: 'script',
+          attrs: {
+            defer: true,
+            src: '/external-links.js'
+          }
         }
       ],
       customCss: ['./src/styles/code-theme.css'],
