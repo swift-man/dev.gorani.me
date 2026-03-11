@@ -2,7 +2,7 @@
 title: macOS 에서 Node.js 설치
 description: Windows 에서 이렇게 확인하면 됩니다.
 ---
-![GPT 5.4 Thinking](https://img.shields.io/badge/GPTCodex-5.3-00A67E?logo=openaigym&logoColor=white)
+![GPT 5.4 Thinking](https://img.shields.io/badge/ChatGPT-5.4Thinking-00A67E?logo=openaigym&logoColor=white)
 
 
 ## Node가 아직 설치되지 않은 상태입니다
