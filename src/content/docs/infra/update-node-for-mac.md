@@ -1,5 +1,5 @@
 ---
-title: Node.js MacOS 에서 업데이트하기
+title: Node.js macOS 에서 업데이트하기
 description: workflow_dispatch
 ---
 ![GPT 5.3-Codex](https://img.shields.io/badge/GPTCodex-5.3-00A67E?logo=openaigym&logoColor=white)
