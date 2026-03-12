@@ -7,11 +7,6 @@ const plausibleScriptSrc =
 
 export default defineConfig({
   site: 'https://dev.gorani.me',
-  redirects: {
-    '/blog/first-post/': '/first-post/',
-    '/blog/second-post/': '/misc/second-post/',
-    '/second-post/': '/misc/second-post/'
-  },
   integrations: [
     starlight({
       title: 'dev.gorani.me',

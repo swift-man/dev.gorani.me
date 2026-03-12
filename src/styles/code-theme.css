@@ -40,3 +40,16 @@
   font-size: 0.92rem;
   line-height: 1.55;
 }
+
+/* Keep the built-in copy button visible without changing its styling. */
+@media (hover: hover) {
+  .expressive-code .copy button {
+    opacity: 0.75 !important;
+  }
+
+  .expressive-code .frame:hover .copy button:not(:hover),
+  .expressive-code .frame:focus-within :focus-visible ~ .copy button:not(:hover),
+  .expressive-code .frame .copy .feedback.show ~ button:not(:hover) {
+    opacity: 0.75 !important;
+  }
+}
