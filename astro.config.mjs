@@ -49,6 +49,11 @@ export default defineConfig({
           label: 'Astro',
           collapsed: false,
           autogenerate: { directory: 'astro' }
+        },
+        {
+          label: 'MCP Server',
+          collapsed: false,
+          autogenerate: { directory: 'mcp-server' }
         }
       ],
       head: [
