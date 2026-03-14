@@ -1,5 +1,5 @@
 ---
-title: 리눅스 재부팅 명령어
+title: Linux 재부팅 명령어
 description: 리눅스 서버 재부팅과 종료 명령, 재부팅 후 프로세스 확인 방법을 정리합니다.
 ---
 ![GPT 5.4-Codex](https://img.shields.io/badge/GPTCodex-5.4-00A67E?logo=openaigym&logoColor=white)
